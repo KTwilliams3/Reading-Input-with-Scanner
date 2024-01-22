@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+class Main {
+
+  public static void main(String[] args) {
+    
+    String line;
+    int age;
+    Scanner sc = new Scanner(System.in);
+    
+    System.out.println("Enter your full name: ");
+    line = sc.nextLine();
+    
+    System.out.println("How old are you? Enter a whole number. ");
+    age = sc.nextInt();
+    
+    System.out.println(name + ", you are " + age + " years old.);
+  }
+  
+}
